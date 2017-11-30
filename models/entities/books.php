@@ -1,6 +1,6 @@
 <?php
 
-abstract class books // this is my parent class for books
+	class books // this is my parent class for books
 {
     protected $Title;
     protected $Author;
