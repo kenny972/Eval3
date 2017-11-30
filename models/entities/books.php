@@ -1,6 +1,6 @@
 <?php
 
-	class books // this is my parent class for books
+	class books // this is my class for books
 {
     protected $Title;
     protected $Author;
@@ -58,22 +58,33 @@
   	}
 
 	// List of setters to check if my value
-	public function setTitle($Title){
+	public function setTitle($Title)
+	{
 			$this -> Title = $Title;
 	}
-	public function setAuthor($Author){
+
+	public function setAuthor($Author)
+	{
 			$this -> Author = $Author;
 	}	
-	public function setReleaseDate($releaseDate){
+
+	public function setReleaseDate($releaseDate)
+	{
 			$this -> ReleaseDate = $releaseDate;
 	}	
-	public function setCategory($Category){
+
+	public function setCategory($Category)
+	{
 			$this -> Category = $Category;
 	}	
-	public function setSummary($Summary){
+
+	public function setSummary($Summary)
+	{
 			$this -> summary = $summary;
 	}
-	public function setAvailability($Availability){
+	
+	public function setAvailability($Availability)
+	{
 	 		$this -> Availability = $Availability;
 	}
 
